@@ -1,17 +1,17 @@
 import React from 'react';
 import classes from "./ListItem.module.css";
 
-const ListItem = ({name,about,id,...props}) => {
+const ListItem = ({...props}) => {
     return (
         <div {...props}>
             <div className={classes.wrapper} >
-                <h2>{id}</h2>
+                <h2>{props.id}</h2>
                 <div className={classes.content}>
                     <h3>
-                        {name}
+                        {props.name}
                     </h3>
                     <p>
-                        {about}
+                        {props.about}
                     </p>
                 </div>
             </div>

@@ -1,18 +1,18 @@
 import React from 'react';
 import classes from "./ProgressBar.module.css";
 
-const ProgressBar = ({value,legend}) => {
+const ProgressBar = ({...props}) => {
     return (
         <div className={classes.wrapper}>
             <div className={classes.progress}>
                 <progress
                     className={classes.bar}
-                    max={100} value={value}>{value}%</progress>
+                    max={100} value={props.value}>{props.value}%</progress>
                 <p>
-                    {value}%
+                    {props.value}%
                 </p>
             </div>
-            <h3>{legend}</h3>
+            <h3>{props.legend}</h3>
         </div>
     );
 };

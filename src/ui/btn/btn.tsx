@@ -2,12 +2,12 @@ import React from 'react';
 import classes from "./btn.module.css";
 
 
-const Btn = ({children,...props}) => {
+const Btn = ({...props}) => {
     return (
         <button
             className={classes.btn}
             {...props}
-        >{children}</button>
+        >{props.children}</button>
     );
 };
 

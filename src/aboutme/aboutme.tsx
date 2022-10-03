@@ -31,7 +31,7 @@ const Aboutme = () => {
                     {Skils.map((el, id) =>
                         <ListItem
                             className={classes.item}
-                            key={id}
+                            key={Date.now.toString()}
                             name={el.name}
                             about={el.about}
                             id={`0${id + 1}`}
@@ -44,7 +44,7 @@ const Aboutme = () => {
             <div className={classes.progress}>
                 <div className={classes['progress-block']}>
                     {
-                        ProgBar.map(el=><ProgressBar value={el.percent} legend={el.legend}/>)
+                        ProgBar.map(el=><ProgressBar key={Date.now.toString()} value={el.percent} legend={el.legend}/>)
                     }
 
                 </div>
