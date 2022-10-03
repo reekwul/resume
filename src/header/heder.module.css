@@ -1,0 +1,37 @@
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.face {
+    background: 80% 15% / 110% no-repeat url("../../public/i.png");
+    width: 400px;
+    height: 400px;
+    min-width: 275px;
+    border-radius: 100vh;
+    box-shadow: 3px 3px 12px #7FC4FD;
+}
+.contact{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex:1;
+    max-width: 720px;
+}
+.contact div h2{
+    margin: 8px 0;
+}
+.contact div h4{
+    margin: 8px 0;
+}
+.text{
+    flex:1;
+}
+.line{
+    box-shadow: 0 2px 4px #7FC4FD;
+    border: 1px solid #7FC4FD;
+    border-radius: 100vh;
+    margin:  8px 45px;
+}

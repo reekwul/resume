@@ -1,0 +1,28 @@
+.wrapper{
+    margin: 8px;
+    padding: 8px;
+}
+.content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.line{
+    box-shadow: 0 2px 4px #7FC4FD;
+    border: 1px solid #BCE0FD;
+    border-radius: 100vh;
+    margin:  8px 0;
+}
+.contact{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex:1;
+    max-width: 720px;
+}
+.contact div h4{
+    margin: 8px 0;
+}
+.contact div h6{
+    margin: 8px 0;
+}

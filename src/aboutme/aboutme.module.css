@@ -1,0 +1,81 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.about .name {
+    flex: 2;
+    margin: 8px;
+    max-width: 400px;
+    min-width: 275px;
+}
+
+.about p {
+    margin: 8px;
+    flex: 1;
+    min-width: 320px;
+}
+
+.rez {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.rez .name {
+    flex: 2;
+    margin: 8px;
+    max-width: 400px;
+    min-width: 275px;
+}
+
+
+
+.skill {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1;
+}
+
+.item {
+    min-width: 300px;
+    flex: 1;
+}
+
+.progress {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.progress-block {
+    display: flex;
+    flex-direction: column;
+
+    flex: 1;
+}
+
+.progress .name {
+    flex: 2;
+    margin: 8px;
+    max-width: 400px;
+    min-width: 275px;
+}
+@media (max-width: 650px) {
+    .about {
+        flex-direction: column-reverse;
+    }
+
+    .rez {
+        flex-direction: column-reverse;
+    }
+
+    .progress {
+        flex-direction: column-reverse;
+    }
+
+}

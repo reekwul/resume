@@ -1,0 +1,42 @@
+.wrapper{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    min-width: 300px;
+    max-width: 600px;
+    margin: 8px;
+}
+.wrapper h3{
+    flex: 1;
+    color: #2A99FB;
+}
+.progress{
+    flex: 3;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.progress p {
+    margin: 16px 32px;
+}
+.bar{
+    flex:1;
+    border:0;
+    height: 10px;
+    border-radius: 5px;
+    background: #C5C4C4;
+}
+.bar::-webkit-progress-bar {
+    height: 10px;
+    border-radius: 100vh;
+    background: #C5C4C4;
+}
+.bar::-webkit-progress-value {
+    border-radius: 100vh;
+    background: #0A7FEB;
+}
+.bar::-moz-progress-bar {
+    border-radius: 100vh;
+    background: #0A7FEB;
+}
