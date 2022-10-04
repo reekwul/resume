@@ -8,7 +8,7 @@ const ListItem = ({...props}) => {
                 <h2 className={classes.id}>{props.id}</h2>
                 <div className={classes.content}>
                     <h3 className={classes['content-name']}>
-                        {props.name}
+                        {props.legend}
                     </h3>
                     <p className={classes['content-about']}>
                         {props.about}

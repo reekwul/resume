@@ -37,7 +37,7 @@ const Aboutme = () => {
                         <ListItem
                             className={classes.item}
                             key={Date.now.toString()}
-                            name={el.name}
+                            legend={el.name}
                             about={el.about}
                             id={`0${id + 1}`}
                         />)}
