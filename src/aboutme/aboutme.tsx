@@ -55,7 +55,7 @@ const Aboutme = () => {
 
                 </div>
                 <h2 className={classes.name}>
-                    Прогресс
+                    Результаты
                 </h2>
             </div>
         </div>
