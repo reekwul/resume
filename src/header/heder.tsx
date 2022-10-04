@@ -5,7 +5,7 @@ import Btn from "../ui/btn/btn";
 import download from "../../download";
 
 const Heder = () => {
-    const down = () => download("/file/rezume_Grigory_Besschetnov.pdf", "rezume_Grigory_Besschetnov.pdf")
+    const down = () => download("/file/rezume.pdf", "rezume_Grigory_Besschetnov.pdf")
     return (
         <div className={classes.wrapper}>
             <div className={classes.text}>

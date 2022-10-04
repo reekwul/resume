@@ -4,7 +4,7 @@ import Btn from "../ui/btn/btn";
 import download from '../../download'
 
 const Footer = () => {
-    const down =() => download("/file/rezume_Grigory_Besschetnov.pdf","rezume_Grigory_Besschetnov.pdf")
+    const down =() => download("/file/rezume.pdf","rezume_Grigory_Besschetnov.pdf")
     return (
         <div className={classes.wrapper}>
             <hr className={classes.line}/>
