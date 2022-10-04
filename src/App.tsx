@@ -1,7 +1,6 @@
 import React from 'react';
 import Heder from "./header/heder";
 import Aboutme from "./aboutme/aboutme";
-
 import classes from "./App.module.css";
 
 

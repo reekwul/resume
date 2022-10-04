@@ -3,3 +3,9 @@
     margin: 16px;
     padding: 16px;
 }
+@media (max-width: 650px) {
+    .wrapper{
+        margin: 8px;
+        padding: 8px;
+    }
+}

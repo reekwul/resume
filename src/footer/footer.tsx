@@ -11,10 +11,6 @@ const Footer = () => {
             <div className={classes.content}>
                 <div className={classes.contact}>
                     <div>
-                        <h4>Город</h4>
-                        <h6>Волгоград</h6>
-                    </div>
-                    <div>
                         <h4>Телефон</h4>
                         <h6>+7(937)-550-67-69</h6>
                     </div>
