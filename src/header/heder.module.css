@@ -1,37 +1,84 @@
 .wrapper {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
 .face {
     background: 80% 15% / 110% no-repeat url("../../public/i.png");
-    width: 400px;
-    height: 400px;
+    width: 350px;
+    height: 350px;
     min-width: 275px;
     border-radius: 100vh;
     box-shadow: 3px 3px 12px #7FC4FD;
 }
-.contact{
+
+.contact {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    flex:1;
+    flex: 1;
     max-width: 720px;
+    margin: 0 0 16px;
 }
-.contact div h2{
-    margin: 8px 0;
+
+.headers {
+    margin: 8px 8px;
+    padding: 8px;
 }
-.contact div h4{
-    margin: 8px 0;
+
+.telo {
+    margin: 2px 8px;
+    padding: 2px 8px;
 }
-.text{
-    flex:1;
+
+.text {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    
 }
-.line{
+
+.text-h1 {
+    margin: 8px;
+    padding: 8px;
+}
+
+.text-h2 {
+    margin: 4px 8px;
+    padding: 4px 8px;
+}
+
+.text-h6 {
+    margin: 1px 8px;
+    padding: 1px 8px;
+}
+
+.line {
+    background: #2A99FB;
     box-shadow: 0 2px 4px #7FC4FD;
     border: 1px solid #7FC4FD;
     border-radius: 100vh;
-    margin:  8px 45px;
+    margin: 16px;
+}
+
+@media (max-width: 650px) {
+    .text-h1, .text-h2, .text-h6 {
+        margin: 4px;
+        padding: 4px;
+    }
+
+    .headers, .telo {
+        margin: 2px;
+        padding: 2px;
+    }
+
+    .module-visible {
+        display: none;
+    }
+
+    .line {
+        margin: 8px 0;
+    }
 }

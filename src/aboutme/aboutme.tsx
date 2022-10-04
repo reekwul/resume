@@ -12,15 +12,18 @@ const Aboutme = () => {
             <div className={classes.about}>
                 <p>
                     Последние несколько лет активно использую и изучаю язык программирования JavaScript.
-
+                    <br/>
+                    <br/>
                     Отучился 11 классов в школе, паралельно ходил на курсы по программированию. Позже занялся
                     самообразованием и написал ЕГЭ. Поступил в РУТ(МИИТ). Во время учёбы работал по специальности,
                     одновременно с этим занимаясь фрилансом. Хочу заменить фриланс на постоянное место работы,
                     свободного времени много.
-
+                    <br/>
+                    <br/>
                     Я общительный, трудолюбивый, мне нравится ставить трудные цели и достигать их.
-
-                    Цель: начать карьеру Junior Frontend Development и достичь уровня Middle
+                    <br/>
+                    <br/>
+                    <strong>Цель:</strong> начать карьеру Junior Frontend Development и достичь уровня Middle
                 </p>
                 <h2 className={classes.name}>
                     Обо мне
@@ -44,7 +47,8 @@ const Aboutme = () => {
             <div className={classes.progress}>
                 <div className={classes['progress-block']}>
                     {
-                        ProgBar.map(el=><ProgressBar key={Date.now.toString()} value={el.percent} legend={el.legend}/>)
+                        ProgBar.map(el => <ProgressBar key={Date.now.toString()} value={el.percent}
+                                                       legend={el.legend}/>)
                     }
 
                 </div>

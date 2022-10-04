@@ -1,13 +1,21 @@
 .btn{
-    margin: 8px 0;
+    margin: 16px;
     padding: 8px 40px;
     border-radius: 50vh;
     border:2px solid #2A99FB;
     color: #F1F9FF;
     background: #2A99FB;
     transition: ease-in-out  0.4s;
+    max-width: 200px;
 }
 .btn:hover{
     color: #2A99FB;
     background: #F1F9FF;
+}
+@media (max-width: 650px) {
+    .btn{
+        margin: 4px;
+        padding: 10px;
+        max-width: 100%;
+    }
 }

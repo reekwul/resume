@@ -72,16 +72,11 @@
     min-width: 275px;
 }
 @media (max-width: 650px) {
-    .about {
+    .about, .progress, .rez{
         flex-direction: column-reverse;
+        margin: 4px 0;
+        padding: 4px 0;
     }
 
-    .rez {
-        flex-direction: column-reverse;
-    }
-
-    .progress {
-        flex-direction: column-reverse;
-    }
 
 }
