@@ -5,12 +5,12 @@ const ListItem = ({...props}) => {
     return (
         <div {...props}>
             <div className={classes.wrapper} >
-                <h2>{props.id}</h2>
+                <h2 className={classes.id}>{props.id}</h2>
                 <div className={classes.content}>
-                    <h3>
+                    <h3 className={classes['content-name']}>
                         {props.name}
                     </h3>
-                    <p>
+                    <p className={classes['content-about']}>
                         {props.about}
                     </p>
                 </div>

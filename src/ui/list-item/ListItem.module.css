@@ -3,24 +3,28 @@
     min-width: 320px;
     margin: 8px;
 }
-.wrapper h2{
+.id{
     color: #0A7FEB;
     margin: 8px;
+    padding: 4px;
     transition:color 0.5s;
 }
-.wrapper:hover h2{
+.wrapper:hover .id{
     color: #7FC4FD;
 }
-.wrapper:hover h3{
+.wrapper:hover .content-name{
     color: #0A7FEB;
 }
-.wrapper:hover p{
+.wrapper:hover .content-about{
     color: #2A99FB;
 }
-.content h3{
-    color: #2A99FB;
+.content-name{
+    margin: 8px 8px 4px;
+    padding: 8px 8px 4px;
     transition:color 0.5s;
 }
-.content p{
+.content-about{
+    margin: 4px 8px 8px;
+    padding: 4px 8px 8px;
     transition:color 0.5s;
 }

@@ -8,18 +8,39 @@ body {
 }
 h1{
   color: #0A7FEB;
+  font-size: 40px;
+  font-weight: 700;
+  font-family: Calibri;
 }
 h2{
-color: #2A99FB;
+  color: #2A99FB;
+  font-size: 35px;
+  font-weight: 650;
+  font-family:  Calibri;
+}
+h3{
+  color: #2A99FB;
+  font-size: 30px;
+  font-weight: 600;
+  font-family:  Calibri;
 }
 h4{
-color: #7FC4FD;
+  color: #7FC4FD;
+  font-size: 25px;
+  font-weight: 550;
+  font-family:  Calibri;
 }
 h6{
   color: #7FC4FD;
+  font-size: 15px;
+  font-weight: 450;
+  font-family:  Calibri;
 }
 p{
-  color: #7FC4FD;
+  color: #5ea4dc;
+  font-size: 24px;
+  font-weight: 500;
+  font-family:  Calibri;
 }
 
 a {
@@ -41,5 +62,4 @@ a {
   body{
     display: flex;
   }
-
 }

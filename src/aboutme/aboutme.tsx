@@ -10,6 +10,7 @@ const Aboutme = () => {
     return (
         <div className={classes.wrapper}>
             <div className={classes.about}>
+
                 <p>
                     Последние несколько лет активно использую и изучаю язык программирования JavaScript.
                     <br/>
@@ -25,6 +26,7 @@ const Aboutme = () => {
                     <br/>
                     <strong>Цель:</strong> начать карьеру Junior Frontend Development и достичь уровня Middle
                 </p>
+
                 <h2 className={classes.name}>
                     Обо мне
                 </h2>
