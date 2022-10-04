@@ -7,6 +7,8 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin: 8px 0;
+    padding: 8px 0;
 }
 
 .about .name {
@@ -25,6 +27,8 @@
 .rez {
     display: flex;
     flex-wrap: wrap;
+    margin: 8px 0;
+    padding: 8px 0;
 }
 
 .rez .name {
@@ -40,6 +44,8 @@
     display: flex;
     flex-wrap: wrap;
     flex: 1 1;
+    margin: 8px 0;
+    padding: 8px 0;
 }
 
 .item {

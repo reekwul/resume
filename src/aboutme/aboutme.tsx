@@ -20,7 +20,7 @@ const Aboutme = () => {
 
                     Я общительный, трудолюбивый, мне нравится ставить трудные цели и достигать их.
 
-                    Цель: начать карьеру Junior Frontend Development и достич уровня Middle
+                    Цель: начать карьеру Junior Frontend Development и достичь уровня Middle
                 </p>
                 <h2 className={classes.name}>
                     Обо мне
