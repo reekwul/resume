@@ -6,6 +6,14 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin: 8px;
+    padding: 8px ;
+}
+.contact-block{
+    display: flex;
+    justify-content: space-between;
+    margin: 4px;
+    padding: 4px;
 }
 .line{
     box-shadow: 0 2px 4px #7FC4FD;
@@ -25,4 +33,9 @@
 }
 .contact div h6{
     margin: 8px 0;
+}
+@media (max-width: 650px) {
+    .contact-block{
+        flex-direction: column;
+    }
 }

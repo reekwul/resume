@@ -8,7 +8,7 @@ const Footer = () => {
     return (
         <div className={classes.wrapper}>
             <hr className={classes.line}/>
-            <div className={classes.content}>
+            <div className={classes['contact-block']}>
                 <div className={classes.contact}>
                     <div>
                         <h4>Телефон</h4>
