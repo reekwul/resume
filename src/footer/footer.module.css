@@ -29,9 +29,6 @@
     margin: 8px 0;
 }
 @media (max-width: 650px) {
-    .content{
-        justify-content: space-around;
-    }
     .contact-block{
         flex-direction: column;
     }
