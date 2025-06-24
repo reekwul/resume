@@ -3,6 +3,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    gap: 1rem;
 }
 
 .face {
@@ -12,72 +13,54 @@
     min-width: 275px;
     border-radius: 100vh;
     box-shadow: 3px 3px 12px #7FC4FD;
+    margin: 0 auto;
 }
 
 .contact {
     display: flex;
+    flex-direction: column;
+    gap: 0.2em;
     flex-wrap: wrap;
     justify-content: space-between;
     flex: 1;
     max-width: 720px;
-    margin: 0 0 16px;
-}
-
-.headers {
-    margin: 8px 8px;
-    padding: 8px;
-}
-
-.telo {
-    margin: 2px 8px;
-    padding: 2px 8px;
 }
 
 .text {
     flex: 1;
     display: flex;
     flex-direction: column;
-
 }
 
 .text-h1 {
-    margin: 8px;
-    padding: 8px;
+    margin: 0;
+    padding: 0;
 }
 
 .text-h2 {
-    margin: 4px 8px;
-    padding: 4px 8px;
+    margin: 0;
+    padding: 0;
 }
 
 .text-h6 {
-    margin: 1px 8px;
-    padding: 1px 8px;
+    margin: 0;
+    padding: 0;
 }
 
 .line {
-    background: #2A99FB;
-    box-shadow: 0 2px 4px #7FC4FD;
-    border: 1px solid #7FC4FD;
-    border-radius: 100vh;
-    margin: 16px;
+    border: 0;                   /* Убираем стандартную рамку */
+    height: 1px;                 /* Толщина линии */
+    margin: 16px 0;              /* Отступы сверху и снизу */
+    background: linear-gradient(90deg, 
+        transparent 0%, 
+        var(--accent-light) 20%, 
+        var(--accent-tertiary) 50%, 
+        var(--accent-light) 80%, 
+        transparent 100%);
+    box-shadow: 0 2px 4px rgba(167, 199, 231, 0.3);
 }
 
-@media (max-width: 650px) {
-    .text-h1, .text-h2, .text-h6 {
-        margin: 4px;
-        padding: 4px;
-    }
-
-    .headers, .telo {
-        margin: 2px;
-        padding: 2px;
-    }
-
-    .module-visible {
-        display: none;
-    }
-
+@media (max-width: 768px) {
     .line {
         margin: 8px 0;
     }

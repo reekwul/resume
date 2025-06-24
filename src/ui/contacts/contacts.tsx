@@ -6,27 +6,27 @@ const cPhone = (phone:string) => {
     const content = formatPhoneNumber(phone);
 
     return (
-        <div >
-            <h3 className={classes.headers}>Телефон</h3>
-            <a href={`tel:${phone}`}  className={classes.bodty}>{content}</a>
+        <div className={classes.contact}>
+            <h4 className={classes.contact__headers}>Телефон</h4>
+            <a href={`tel:${phone}`}  className={classes.contact__body}>{content}</a>
         </div>
     )
 }
 
 const cEmail = (email:string) =>{
     return (
-        <div >
-            <h3 className={classes.headers}>Email</h3>
-            <a href={`mailto:${email}`} className={classes.body}>{email}</a>
+        <div className={classes.contact}>
+            <h4 className={classes.contact__headers}>Email</h4>
+            <a href={`mailto:${email}`} className={classes.contact__body}>{email}</a>
         </div>
     )
 }
 
 const cCity = (city:string) =>{
     return (
-        <div >
-            <h3 className={classes.headers}>Город</h3>
-            <p className={classes.telo}>Москва</p>
+        <div className={classes.contact}>
+            <h4 className={classes.contact__headers}>Город</h4>
+            <p className={classes.contact__body}>Москва</p>
         </div>
     )
 }

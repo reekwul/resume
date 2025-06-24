@@ -1,22 +1,27 @@
 .btn{
-
-    max-width: 250px;
-    margin: 16px;
-    padding: 8px 40px;
+    max-width: 332px;
+    margin: 8px 0;
+    padding: 8px 24px;
 
     border-radius: 50vh;
-    border:2px solid #2A99FB;
-    color: #F1F9FF;
-    background: #2A99FB;
+    border:2px solid;
+    color: var(--accent-secondary);
+    border-color: var(--accent-secondary);
+    background: transparent;
     transition: ease-in-out  0.4s;
 
-    font-size: 24px;
-    font-weight: 500;
+    font-size: var(--h3-size);
+    font-weight: var(--h6-weight);
     font-family:  Calibri;
 }
 .btn:hover{
-    color: #2A99FB;
-    background: #F1F9FF;
+    color: var(--accent-primary);
+    border-color: var(--accent-primary);
+}
+
+.btn:active{
+    color: var(--accent-soft);
+    border-color: var(--accent-soft);
 }
 @media (max-width: 650px) {
     .btn{

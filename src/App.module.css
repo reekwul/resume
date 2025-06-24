@@ -1,11 +1,16 @@
 .wrapper{
-    max-width: 1366px;
-    margin: 16px;
-    padding: 16px;
+    max-width: 1024px;
+    margin: 24px 24px;
+    padding: 0;
 }
-@media (max-width: 650px) {
+@media (max-width: 768px) {
+    .wrapper{
+        margin: 16px;
+    }
+}
+
+@media (max-width: 425px) {
     .wrapper{
         margin: 8px;
-        padding: 8px;
     }
 }

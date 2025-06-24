@@ -19,14 +19,17 @@ const Experience = (props:{works:WorksMe[]})=>{
                                 <p>{work.duration}</p>
                             </div>
                             <div className={classes.company}>
-                                <a href={work.company_link} target="_blank" className={classes.company__link}>
-                                    <h4 className={classes.company__link__text}>{work.company_name}</h4>
-                                </a>
-                                <p className={classes.company__position}>
-                                    {work.position}
-                                </p>
+                                <div>
+                                    <a href={work.company_link} target="_blank" className={classes.company__link}>
+                                        <h4 className={classes.company__link__text}>{work.company_name}</h4>
+                                    </a>
+                                    <p className={classes.company__position}>
+                                       {work.position}
+                                    </p>
+                                </div>
+                                
                                 <div className={classes.stack}>
-                                    <h4 className={classes.stack__header}>🛠 Стек</h4>
+                                    <h4 className={classes.stack__header}>Стек 🛠</h4>
                                     <div className={classes.stack__list}>
                                         {
                                             work.company_techologies.map((el,index)=>

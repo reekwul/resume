@@ -1,0 +1,19 @@
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-around;
+}
+
+.contact__headers{
+    margin: 0;
+    padding: 0;
+}
+
+.contact__body{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: var(--text-secondary);
+    font-size: var(--p-size);
+}
