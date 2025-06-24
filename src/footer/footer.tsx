@@ -2,6 +2,8 @@ import React from 'react';
 import classes from "./footer.module.css";
 import Btn from "../ui/btn/btn";
 import download from '../../download'
+import Contacts from '../ui/contacts/contacts';
+import { MeRu } from '@/Contacts';
 
 const Footer = () => {
     const down =() => download("/file/rezume.pdf","rezume_Grigory_Besschetnov.pdf")
@@ -10,14 +12,7 @@ const Footer = () => {
             <hr className={classes.line}/>
             <div className={classes['contact-block']}>
                 <div className={classes.contact}>
-                    <div>
-                        <h4>Телефон</h4>
-                        <h6>+7(937)-550-67-69</h6>
-                    </div>
-                    <div >
-                        <h4>Email</h4>
-                        <h6>G.besscetnov@yandex.ru</h6>
-                    </div>
+                    <Contacts phone={MeRu.phone} email={MeRu.email} />
                 </div>
                 <Btn
                     onClick={down}

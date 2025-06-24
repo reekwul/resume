@@ -17,7 +17,7 @@ export default [
     },
     {
         name:"Git",
-        about:"Пользуюсь данной системой контроля версий.Ссылка на мой репозиторий: https://github.com/reekwul"
+        about:"Пользуюсь данной системой контроля версий. Ссылка на мой репозиторий: https://github.com/reekwul"
     },
     {
         name:"ООП",

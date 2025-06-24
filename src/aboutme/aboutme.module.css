@@ -19,7 +19,7 @@
     min-width: 275px;
 }
 
-.about p {
+.about__text{
     margin: 8px;
     flex: 1;
     min-width: 320px;

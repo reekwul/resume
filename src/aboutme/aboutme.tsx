@@ -4,39 +4,45 @@ import Skils from '../../ArraySkils'
 import ProgBar from '../../ArrayProgressev'
 import ListItem from "../ui/list-item/list-item";
 import ProgressBar from "../ui/progressbar/progress-bar";
+import Experience from '../ui/experience/experience';
+import {Works} from "../../ArrayWorks"
+
 
 const Aboutme = () => {
 
     return (
         <div className={classes.wrapper}>
             <div className={classes.about}>
+                <div className={classes.about__text}>
+                    <p>
+                    Middle Frontend Developer с 4+ годами коммерческого опыта на Vue.js.
+                    </p>
+                    <p>
+                        Специализация:
+                    </p>
+                    <ul>
+                        <li>Разработка высоконагруженных приложений на Vue 3/Nuxt</li>
+                        <li>Оптимизация производительности (ускорение на 40-65% в проектах)</li>
+                        <li>Полный цикл разработки от архитектуры до финального релиза</li>
+                    </ul>
 
-                <p>
-                    Последние несколько лет активно использую и изучаю язык программирования JavaScript.
-                    <br/>
-                    <br/>
-                    Отучился 11 классов в школе,написал ЕГЭ, паралельно ходил на курсы по программированию. Позже занялся
-                    самообразованием. Поступил в РУТ(МИИТ). Во время учёбы работал по специальности,
-                    одновременно с этим занимаясь фрилансом. Хочу заменить фриланс на постоянное место работы,
-                    свободного времени много.
-                    <br/>
-                    <br/>
-                    Я общительный, трудолюбивый. Мне нравится ставить трудные цели и достигать их.
-                    <br/>
-                    <br/>
-                    <strong>Цель:</strong> начать карьеру Junior Frontend Development и достичь уровня Middle
-                </p>
-
+                    <p>
+                        Открыт к интересным предложениям в продуктовых компаниях и аутсорсе.
+                        Готов к сложным задачам и работе с современным стеком.
+                    </p>
+                </div>
+                
                 <h2 className={classes.name}>
                     Обо мне
                 </h2>
             </div>
+            <Experience works={Works} />
             <div className={classes.rez}>
                 <div className={classes.skill}>
                     {Skils.map((el, id) =>
                         <ListItem
                             className={classes.item}
-                            key={Date.now.toString()}
+                            key={id}
                             legend={el.name}
                             about={el.about}
                             id={`0${id + 1}`}
@@ -48,10 +54,13 @@ const Aboutme = () => {
             </div>
             <div className={classes.progress}>
                 <div className={classes['progress-block']}>
-                    {
-                        ProgBar.map(el => <ProgressBar key={Date.now.toString()} value={el.percent}
-                                                       legend={el.legend}/>)
-                    }
+                    { ProgBar.map((el,id )=> 
+                    <ProgressBar 
+                        key={"bar-"+id} 
+                        value={el.percent}
+                        legend={el.legend}
+                    />
+                    )}
 
                 </div>
                 <h2 className={classes.name}>

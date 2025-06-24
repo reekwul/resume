@@ -9,7 +9,6 @@ const App = () => {
         <div className={classes.wrapper}>
             <Heder/>
             <Aboutme/>
-
         </div>
     );
 };
