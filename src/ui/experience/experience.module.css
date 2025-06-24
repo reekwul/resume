@@ -1,12 +1,23 @@
 .experience{
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.experience__header{
+    margin: 0;
+    padding: 0;
 }
 
 .work_list{
     margin: 0;
     padding: 0;
     list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
 }
 
 .work_list__item{
@@ -15,10 +26,12 @@
     gap: 2rem;
 }
 
+.work__time{
+    flex:30%;
+}
 .work__time h4{
     margin: 0;
     font-size: 1.2rem;
-    
 }
 
 .work__time p{
@@ -26,6 +39,7 @@
 }
 
 .company{
+    flex:70%;
     display: flex;
     flex-direction: column;
     background-color: var(--bg-secondary);
@@ -77,6 +91,38 @@
 .company__position{
     margin: 0;
     color: var(--text-secondary);
+}
+
+.results{
+    margin: 0;
+    padding: 0;
+}
+
+.results__about{
+    margin: 0;
+    padding: 0;
+    color: var(--text-primary);
+}
+
+.results__achievements, .results__indicators{
+    margin: 0;
+    padding: 0;
+}
+
+.results__achievements__header, .results__indicators__header{
+    margin: 4px 0;
+    padding: 0;
+    font-size: 16px;
+    color: var(--text-primary);
+}
+
+.results__achievements__list, .results__indicators__list{
+    margin: 4px 0;
+    padding: 0 20px;
+    list-style: none;
+}
+.results__achievements__list_items,.results__indicators__list_items{
+    white-space: pre-wrap;
 }
 
 @media (max-width: 768px) {
