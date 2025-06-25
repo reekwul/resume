@@ -1,22 +1,46 @@
 export default [
     {
         legend:"JavaScript",
+        percent:"90"
+    },
+    {
+        legend:"Vue.js",
+        percent:"85"
+    },
+    {
+        legend:"TypeScript",
         percent:"70"
     },
     {
-        legend:"HTML5 и CSS3",
-        percent:"80"
+        legend:"Nuxt.js",
+        percent:"65"
     },
     {
-        legend:"Vue",
-        percent:"70"
+        legend:"Pinia / Vuex",
+        percent:"75"
     },
     {
-        legend:"React",
+        legend:"Vite / Webpack",
         percent:"60"
     },
     {
-        legend:"Git",
+        legend:"REST API",
         percent:"70"
+    },
+    {
+        legend:"Оптимизация",
+        percent:"65"
+    },
+    {
+        legend:"SSR (Nuxt.js)",
+        percent:"60"
+    },
+    {
+        legend:"Jest / Cypress",
+        percent:"50"
+    },
+    {
+        legend:"Git",
+        percent:"75"
     },
 ]

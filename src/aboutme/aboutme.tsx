@@ -37,21 +37,6 @@ const Aboutme = () => {
                 </h2>
             </div>
             <Experience works={Works} />
-            <div className={classes.rez}>
-                <div className={classes.skill}>
-                    {Skils.map((el, id) =>
-                        <ListItem
-                            className={classes.item}
-                            key={id}
-                            legend={el.name}
-                            about={el.about}
-                            id={`0${id + 1}`}
-                        />)}
-                </div>
-                <h2 className={classes.name}>
-                    Навыки
-                </h2>
-            </div>
             <div className={classes.progress}>
                 <div className={classes['progress-block']}>
                     { ProgBar.map((el,id )=> 
@@ -64,7 +49,7 @@ const Aboutme = () => {
 
                 </div>
                 <h2 className={classes.name}>
-                    Результаты
+                    Навыки
                 </h2>
             </div>
         </div>

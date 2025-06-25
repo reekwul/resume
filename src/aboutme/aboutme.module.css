@@ -71,21 +71,21 @@
 
 .progress {
     display: flex;
-    flex-wrap: wrap;
+    margin: 16px 0;
+    gap: 2rem;
 }
 
 .progress-block {
+    margin-top: calc(38px + 1.5rem);
     display: flex;
     flex-direction: column;
-
-    flex: 1;
+    flex: 75%;
 }
 
 .progress .name {
-    flex: 2;
-    margin: 8px;
+    flex: 25%;
+    margin: 0 8px;
     max-width: 400px;
-    min-width: 275px;
 }
 @media (max-width: 768px) {
     .about, .progress, .rez{

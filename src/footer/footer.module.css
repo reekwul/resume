@@ -4,23 +4,24 @@
 }
 
 .contact-block{
+    max-width: 1024px;
     display: flex;
     justify-content: space-between;
-    margin: 4px;
+    margin: 0 auto;
     padding: 4px;
 }
 .line{
-    box-shadow: 0 2px 4px #7FC4FD;
-    border: 1px solid #BCE0FD;
+    box-shadow: 0 4px 10px var(--accent-light);
+    border: 1px solid var(--border-color);
     border-radius: 100vh;
     margin:  8px 0;
 }
 .contact{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    flex:1;
-    max-width: 720px;
+    justify-content: space-between;
+    gap: 1.5rem;
+    margin-right: auto;
 }
 .contact div h4{
     margin: 8px 0;
