@@ -7,6 +7,7 @@
 }
 
 .face {
+    display: none;
     background: 80% 15% / 110% no-repeat url("../../public/i.png");
     width: 350px;
     height: 350px;
