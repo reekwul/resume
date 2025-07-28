@@ -32,10 +32,12 @@
 .work__time h4{
     margin: 0;
     font-size: 1.2rem;
+    font-weight: normal;
 }
 
 .work__time p{
     margin: 0;
+    font-size: 1.1rem;
 }
 
 .company{
@@ -123,6 +125,15 @@
 }
 .results__achievements__list_items,.results__indicators__list_items{
     white-space: pre-wrap;
+}
+.results__achievements__list_items{
+    margin: 12px 0;
+    padding: 0;
+}
+.results__indicators__list_items{
+    list-style: circle;
+    margin: 6px 0;
+    padding: 0
 }
 
 @media (max-width: 768px) {
